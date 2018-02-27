@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC57CA5320201F3000540BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CA5220201F3000540BD1 /* AppDelegate.swift */; };
+		EC57CA5520201F3000540BD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CA5420201F3000540BD1 /* ViewController.swift */; };
+		EC57CA5820201F3000540BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC57CA5620201F3000540BD1 /* Main.storyboard */; };
+		EC57CA5A20201F3000540BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC57CA5920201F3000540BD1 /* Assets.xcassets */; };
+		EC57CA5D20201F3000540BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC57CA5B20201F3000540BD1 /* LaunchScreen.storyboard */; };
+		EC57CA6820201F3100540BD1 /* ImageEffectsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CA6720201F3100540BD1 /* ImageEffectsTests.swift */; };
+		EC57CA7320201F3100540BD1 /* ImageEffectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CA7220201F3100540BD1 /* ImageEffectsUITests.swift */; };
+		EC57CA8120201F4800540BD1 /* blur.png in Resources */ = {isa = PBXBuildFile; fileRef = EC57CA8020201F4800540BD1 /* blur.png */; };
+		EC57CA89202043B000540BD1 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = EC57CA88202043B000540BD1 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC57CA6420201F3100540BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC57CA4720201F3000540BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC57CA4E20201F3000540BD1;
+			remoteInfo = ImageEffects;
+		};
+		EC57CA6F20201F3100540BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC57CA4720201F3000540BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC57CA4E20201F3000540BD1;
+			remoteInfo = ImageEffects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC57CA4F20201F3000540BD1 /* ImageEffects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageEffects.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC57CA5220201F3000540BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC57CA5420201F3000540BD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC57CA5720201F3000540BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC57CA5920201F3000540BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC57CA5C20201F3000540BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC57CA5E20201F3000540BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC57CA6320201F3100540BD1 /* ImageEffectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageEffectsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC57CA6720201F3100540BD1 /* ImageEffectsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEffectsTests.swift; sourceTree = "<group>"; };
+		EC57CA6920201F3100540BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC57CA6E20201F3100540BD1 /* ImageEffectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageEffectsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC57CA7220201F3100540BD1 /* ImageEffectsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEffectsUITests.swift; sourceTree = "<group>"; };
+		EC57CA7420201F3100540BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC57CA8020201F4800540BD1 /* blur.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blur.png; sourceTree = "<group>"; };
+		EC57CA82202020CB00540BD1 /* ImageEffects-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageEffects-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC57CA87202043B000540BD1 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		EC57CA88202043B000540BD1 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC57CA4C20201F3000540BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CA6020201F3100540BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CA6B20201F3100540BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC57CA4620201F3000540BD1 = {
+			isa = PBXGroup;
+			children = (
+				EC57CA5120201F3000540BD1 /* ImageEffects */,
+				EC57CA6620201F3100540BD1 /* ImageEffectsTests */,
+				EC57CA7120201F3100540BD1 /* ImageEffectsUITests */,
+				EC57CA5020201F3000540BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC57CA5020201F3000540BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CA4F20201F3000540BD1 /* ImageEffects.app */,
+				EC57CA6320201F3100540BD1 /* ImageEffectsTests.xctest */,
+				EC57CA6E20201F3100540BD1 /* ImageEffectsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC57CA5120201F3000540BD1 /* ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CA86202043B000540BD1 /* UIImage+ImageEffects */,
+				EC57CA8020201F4800540BD1 /* blur.png */,
+				EC57CA5220201F3000540BD1 /* AppDelegate.swift */,
+				EC57CA5420201F3000540BD1 /* ViewController.swift */,
+				EC57CA5620201F3000540BD1 /* Main.storyboard */,
+				EC57CA5920201F3000540BD1 /* Assets.xcassets */,
+				EC57CA5B20201F3000540BD1 /* LaunchScreen.storyboard */,
+				EC57CA5E20201F3000540BD1 /* Info.plist */,
+				EC57CA82202020CB00540BD1 /* ImageEffects-Bridging-Header.h */,
+			);
+			path = ImageEffects;
+			sourceTree = "<group>";
+		};
+		EC57CA6620201F3100540BD1 /* ImageEffectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CA6720201F3100540BD1 /* ImageEffectsTests.swift */,
+				EC57CA6920201F3100540BD1 /* Info.plist */,
+			);
+			path = ImageEffectsTests;
+			sourceTree = "<group>";
+		};
+		EC57CA7120201F3100540BD1 /* ImageEffectsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CA7220201F3100540BD1 /* ImageEffectsUITests.swift */,
+				EC57CA7420201F3100540BD1 /* Info.plist */,
+			);
+			path = ImageEffectsUITests;
+			sourceTree = "<group>";
+		};
+		EC57CA86202043B000540BD1 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CA87202043B000540BD1 /* UIImage+ImageEffects.h */,
+				EC57CA88202043B000540BD1 /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC57CA4E20201F3000540BD1 /* ImageEffects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC57CA7720201F3100540BD1 /* Build configuration list for PBXNativeTarget "ImageEffects" */;
+			buildPhases = (
+				EC57CA4B20201F3000540BD1 /* Sources */,
+				EC57CA4C20201F3000540BD1 /* Frameworks */,
+				EC57CA4D20201F3000540BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageEffects;
+			productName = ImageEffects;
+			productReference = EC57CA4F20201F3000540BD1 /* ImageEffects.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC57CA6220201F3100540BD1 /* ImageEffectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC57CA7A20201F3100540BD1 /* Build configuration list for PBXNativeTarget "ImageEffectsTests" */;
+			buildPhases = (
+				EC57CA5F20201F3100540BD1 /* Sources */,
+				EC57CA6020201F3100540BD1 /* Frameworks */,
+				EC57CA6120201F3100540BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC57CA6520201F3100540BD1 /* PBXTargetDependency */,
+			);
+			name = ImageEffectsTests;
+			productName = ImageEffectsTests;
+			productReference = EC57CA6320201F3100540BD1 /* ImageEffectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC57CA6D20201F3100540BD1 /* ImageEffectsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC57CA7D20201F3100540BD1 /* Build configuration list for PBXNativeTarget "ImageEffectsUITests" */;
+			buildPhases = (
+				EC57CA6A20201F3100540BD1 /* Sources */,
+				EC57CA6B20201F3100540BD1 /* Frameworks */,
+				EC57CA6C20201F3100540BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC57CA7020201F3100540BD1 /* PBXTargetDependency */,
+			);
+			name = ImageEffectsUITests;
+			productName = ImageEffectsUITests;
+			productReference = EC57CA6E20201F3100540BD1 /* ImageEffectsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC57CA4720201F3000540BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GujyHy;
+				TargetAttributes = {
+					EC57CA4E20201F3000540BD1 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					EC57CA6220201F3100540BD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC57CA4E20201F3000540BD1;
+					};
+					EC57CA6D20201F3100540BD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC57CA4E20201F3000540BD1;
+					};
+				};
+			};
+			buildConfigurationList = EC57CA4A20201F3000540BD1 /* Build configuration list for PBXProject "ImageEffects" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC57CA4620201F3000540BD1;
+			productRefGroup = EC57CA5020201F3000540BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC57CA4E20201F3000540BD1 /* ImageEffects */,
+				EC57CA6220201F3100540BD1 /* ImageEffectsTests */,
+				EC57CA6D20201F3100540BD1 /* ImageEffectsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC57CA4D20201F3000540BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57CA8120201F4800540BD1 /* blur.png in Resources */,
+				EC57CA5D20201F3000540BD1 /* LaunchScreen.storyboard in Resources */,
+				EC57CA5A20201F3000540BD1 /* Assets.xcassets in Resources */,
+				EC57CA5820201F3000540BD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CA6120201F3100540BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CA6C20201F3100540BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC57CA4B20201F3000540BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57CA5520201F3000540BD1 /* ViewController.swift in Sources */,
+				EC57CA5320201F3000540BD1 /* AppDelegate.swift in Sources */,
+				EC57CA89202043B000540BD1 /* UIImage+ImageEffects.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CA5F20201F3100540BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57CA6820201F3100540BD1 /* ImageEffectsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CA6A20201F3100540BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57CA7320201F3100540BD1 /* ImageEffectsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC57CA6520201F3100540BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC57CA4E20201F3000540BD1 /* ImageEffects */;
+			targetProxy = EC57CA6420201F3100540BD1 /* PBXContainerItemProxy */;
+		};
+		EC57CA7020201F3100540BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC57CA4E20201F3000540BD1 /* ImageEffects */;
+			targetProxy = EC57CA6F20201F3100540BD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC57CA5620201F3000540BD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC57CA5720201F3000540BD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC57CA5B20201F3000540BD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC57CA5C20201F3000540BD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC57CA7520201F3100540BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC57CA7620201F3100540BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC57CA7820201F3100540BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageEffects/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.ImageEffects;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageEffects/ImageEffects-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC57CA7920201F3100540BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageEffects/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.ImageEffects;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageEffects/ImageEffects-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC57CA7B20201F3100540BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageEffectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.ImageEffectsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageEffects.app/ImageEffects";
+			};
+			name = Debug;
+		};
+		EC57CA7C20201F3100540BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageEffectsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.ImageEffectsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageEffects.app/ImageEffects";
+			};
+			name = Release;
+		};
+		EC57CA7E20201F3100540BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageEffectsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.ImageEffectsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageEffects;
+			};
+			name = Debug;
+		};
+		EC57CA7F20201F3100540BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ImageEffectsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.ImageEffectsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageEffects;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC57CA4A20201F3000540BD1 /* Build configuration list for PBXProject "ImageEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC57CA7520201F3100540BD1 /* Debug */,
+				EC57CA7620201F3100540BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC57CA7720201F3100540BD1 /* Build configuration list for PBXNativeTarget "ImageEffects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC57CA7820201F3100540BD1 /* Debug */,
+				EC57CA7920201F3100540BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC57CA7A20201F3100540BD1 /* Build configuration list for PBXNativeTarget "ImageEffectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC57CA7B20201F3100540BD1 /* Debug */,
+				EC57CA7C20201F3100540BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC57CA7D20201F3100540BD1 /* Build configuration list for PBXNativeTarget "ImageEffectsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC57CA7E20201F3100540BD1 /* Debug */,
+				EC57CA7F20201F3100540BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC57CA4720201F3000540BD1 /* Project object */;
+}

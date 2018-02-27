@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC57CAD320205DA900540BD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CAD220205DA900540BD1 /* AppDelegate.swift */; };
+		EC57CAD520205DA900540BD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CAD420205DA900540BD1 /* ViewController.swift */; };
+		EC57CAD820205DA900540BD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC57CAD620205DA900540BD1 /* Main.storyboard */; };
+		EC57CADA20205DA900540BD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC57CAD920205DA900540BD1 /* Assets.xcassets */; };
+		EC57CADD20205DA900540BD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC57CADB20205DA900540BD1 /* LaunchScreen.storyboard */; };
+		EC57CAE820205DA900540BD1 /* BlurDownloadViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CAE720205DA900540BD1 /* BlurDownloadViewTests.swift */; };
+		EC57CAF320205DA900540BD1 /* BlurDownloadViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CAF220205DA900540BD1 /* BlurDownloadViewUITests.swift */; };
+		EC57CB012020647E00540BD1 /* BlurDownloadPicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CB002020647D00540BD1 /* BlurDownloadPicView.swift */; };
+		EC57CB0C20206DBA00540BD1 /* GCDGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CB0620206DBA00540BD1 /* GCDGroup.swift */; };
+		EC57CB0D20206DBA00540BD1 /* GCDQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CB0720206DBA00540BD1 /* GCDQueue.swift */; };
+		EC57CB0E20206DBA00540BD1 /* GCDQueuePriority.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CB0820206DBA00540BD1 /* GCDQueuePriority.swift */; };
+		EC57CB0F20206DBA00540BD1 /* GCDSemaphore.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CB0920206DBA00540BD1 /* GCDSemaphore.swift */; };
+		EC57CB1020206DBA00540BD1 /* GCDTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC57CB0A20206DBA00540BD1 /* GCDTimer.swift */; };
+		EC57CB18202074CC00540BD1 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = EC57CB17202074CC00540BD1 /* UIImage+ImageEffects.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC57CAE420205DA900540BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC57CAC720205DA800540BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC57CACE20205DA900540BD1;
+			remoteInfo = BlurDownloadView;
+		};
+		EC57CAEF20205DA900540BD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC57CAC720205DA800540BD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC57CACE20205DA900540BD1;
+			remoteInfo = BlurDownloadView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC57CACF20205DA900540BD1 /* BlurDownloadView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurDownloadView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC57CAD220205DA900540BD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC57CAD420205DA900540BD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC57CAD720205DA900540BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC57CAD920205DA900540BD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC57CADC20205DA900540BD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC57CADE20205DA900540BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC57CAE320205DA900540BD1 /* BlurDownloadViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurDownloadViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC57CAE720205DA900540BD1 /* BlurDownloadViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurDownloadViewTests.swift; sourceTree = "<group>"; };
+		EC57CAE920205DA900540BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC57CAEE20205DA900540BD1 /* BlurDownloadViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurDownloadViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC57CAF220205DA900540BD1 /* BlurDownloadViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurDownloadViewUITests.swift; sourceTree = "<group>"; };
+		EC57CAF420205DA900540BD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC57CB002020647D00540BD1 /* BlurDownloadPicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurDownloadPicView.swift; sourceTree = "<group>"; };
+		EC57CB0620206DBA00540BD1 /* GCDGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDGroup.swift; sourceTree = "<group>"; };
+		EC57CB0720206DBA00540BD1 /* GCDQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDQueue.swift; sourceTree = "<group>"; };
+		EC57CB0820206DBA00540BD1 /* GCDQueuePriority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDQueuePriority.swift; sourceTree = "<group>"; };
+		EC57CB0920206DBA00540BD1 /* GCDSemaphore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDSemaphore.swift; sourceTree = "<group>"; };
+		EC57CB0A20206DBA00540BD1 /* GCDTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GCDTimer.swift; sourceTree = "<group>"; };
+		EC57CB1120206DD500540BD1 /* BlurDownloadView-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlurDownloadView-Bridging-Header.h"; sourceTree = "<group>"; };
+		EC57CB16202074CC00540BD1 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		EC57CB17202074CC00540BD1 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC57CACC20205DA900540BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CAE020205DA900540BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CAEB20205DA900540BD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC57CAC620205DA800540BD1 = {
+			isa = PBXGroup;
+			children = (
+				EC57CAD120205DA900540BD1 /* BlurDownloadView */,
+				EC57CAE620205DA900540BD1 /* BlurDownloadViewTests */,
+				EC57CAF120205DA900540BD1 /* BlurDownloadViewUITests */,
+				EC57CAD020205DA900540BD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC57CAD020205DA900540BD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CACF20205DA900540BD1 /* BlurDownloadView.app */,
+				EC57CAE320205DA900540BD1 /* BlurDownloadViewTests.xctest */,
+				EC57CAEE20205DA900540BD1 /* BlurDownloadViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC57CAD120205DA900540BD1 /* BlurDownloadView */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CB15202074CC00540BD1 /* UIImage+ImageEffects */,
+				EC57CB0520206DBA00540BD1 /* GCD */,
+				EC57CAD220205DA900540BD1 /* AppDelegate.swift */,
+				EC57CAD420205DA900540BD1 /* ViewController.swift */,
+				EC57CB002020647D00540BD1 /* BlurDownloadPicView.swift */,
+				EC57CAD620205DA900540BD1 /* Main.storyboard */,
+				EC57CAD920205DA900540BD1 /* Assets.xcassets */,
+				EC57CADB20205DA900540BD1 /* LaunchScreen.storyboard */,
+				EC57CADE20205DA900540BD1 /* Info.plist */,
+				EC57CB1120206DD500540BD1 /* BlurDownloadView-Bridging-Header.h */,
+			);
+			path = BlurDownloadView;
+			sourceTree = "<group>";
+		};
+		EC57CAE620205DA900540BD1 /* BlurDownloadViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CAE720205DA900540BD1 /* BlurDownloadViewTests.swift */,
+				EC57CAE920205DA900540BD1 /* Info.plist */,
+			);
+			path = BlurDownloadViewTests;
+			sourceTree = "<group>";
+		};
+		EC57CAF120205DA900540BD1 /* BlurDownloadViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CAF220205DA900540BD1 /* BlurDownloadViewUITests.swift */,
+				EC57CAF420205DA900540BD1 /* Info.plist */,
+			);
+			path = BlurDownloadViewUITests;
+			sourceTree = "<group>";
+		};
+		EC57CB0520206DBA00540BD1 /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CB0620206DBA00540BD1 /* GCDGroup.swift */,
+				EC57CB0720206DBA00540BD1 /* GCDQueue.swift */,
+				EC57CB0820206DBA00540BD1 /* GCDQueuePriority.swift */,
+				EC57CB0920206DBA00540BD1 /* GCDSemaphore.swift */,
+				EC57CB0A20206DBA00540BD1 /* GCDTimer.swift */,
+			);
+			path = GCD;
+			sourceTree = "<group>";
+		};
+		EC57CB15202074CC00540BD1 /* UIImage+ImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				EC57CB16202074CC00540BD1 /* UIImage+ImageEffects.h */,
+				EC57CB17202074CC00540BD1 /* UIImage+ImageEffects.m */,
+			);
+			path = "UIImage+ImageEffects";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC57CACE20205DA900540BD1 /* BlurDownloadView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC57CAF720205DA900540BD1 /* Build configuration list for PBXNativeTarget "BlurDownloadView" */;
+			buildPhases = (
+				EC57CACB20205DA900540BD1 /* Sources */,
+				EC57CACC20205DA900540BD1 /* Frameworks */,
+				EC57CACD20205DA900540BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurDownloadView;
+			productName = BlurDownloadView;
+			productReference = EC57CACF20205DA900540BD1 /* BlurDownloadView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC57CAE220205DA900540BD1 /* BlurDownloadViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC57CAFA20205DA900540BD1 /* Build configuration list for PBXNativeTarget "BlurDownloadViewTests" */;
+			buildPhases = (
+				EC57CADF20205DA900540BD1 /* Sources */,
+				EC57CAE020205DA900540BD1 /* Frameworks */,
+				EC57CAE120205DA900540BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC57CAE520205DA900540BD1 /* PBXTargetDependency */,
+			);
+			name = BlurDownloadViewTests;
+			productName = BlurDownloadViewTests;
+			productReference = EC57CAE320205DA900540BD1 /* BlurDownloadViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC57CAED20205DA900540BD1 /* BlurDownloadViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC57CAFD20205DA900540BD1 /* Build configuration list for PBXNativeTarget "BlurDownloadViewUITests" */;
+			buildPhases = (
+				EC57CAEA20205DA900540BD1 /* Sources */,
+				EC57CAEB20205DA900540BD1 /* Frameworks */,
+				EC57CAEC20205DA900540BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC57CAF020205DA900540BD1 /* PBXTargetDependency */,
+			);
+			name = BlurDownloadViewUITests;
+			productName = BlurDownloadViewUITests;
+			productReference = EC57CAEE20205DA900540BD1 /* BlurDownloadViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC57CAC720205DA800540BD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GujyHy;
+				TargetAttributes = {
+					EC57CACE20205DA900540BD1 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+					EC57CAE220205DA900540BD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC57CACE20205DA900540BD1;
+					};
+					EC57CAED20205DA900540BD1 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EC57CACE20205DA900540BD1;
+					};
+				};
+			};
+			buildConfigurationList = EC57CACA20205DA800540BD1 /* Build configuration list for PBXProject "BlurDownloadView" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC57CAC620205DA800540BD1;
+			productRefGroup = EC57CAD020205DA900540BD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC57CACE20205DA900540BD1 /* BlurDownloadView */,
+				EC57CAE220205DA900540BD1 /* BlurDownloadViewTests */,
+				EC57CAED20205DA900540BD1 /* BlurDownloadViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC57CACD20205DA900540BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57CADD20205DA900540BD1 /* LaunchScreen.storyboard in Resources */,
+				EC57CADA20205DA900540BD1 /* Assets.xcassets in Resources */,
+				EC57CAD820205DA900540BD1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CAE120205DA900540BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CAEC20205DA900540BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC57CACB20205DA900540BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57CAD520205DA900540BD1 /* ViewController.swift in Sources */,
+				EC57CB0C20206DBA00540BD1 /* GCDGroup.swift in Sources */,
+				EC57CB012020647E00540BD1 /* BlurDownloadPicView.swift in Sources */,
+				EC57CB0D20206DBA00540BD1 /* GCDQueue.swift in Sources */,
+				EC57CAD320205DA900540BD1 /* AppDelegate.swift in Sources */,
+				EC57CB18202074CC00540BD1 /* UIImage+ImageEffects.m in Sources */,
+				EC57CB0E20206DBA00540BD1 /* GCDQueuePriority.swift in Sources */,
+				EC57CB1020206DBA00540BD1 /* GCDTimer.swift in Sources */,
+				EC57CB0F20206DBA00540BD1 /* GCDSemaphore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CADF20205DA900540BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57CAE820205DA900540BD1 /* BlurDownloadViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC57CAEA20205DA900540BD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC57CAF320205DA900540BD1 /* BlurDownloadViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC57CAE520205DA900540BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC57CACE20205DA900540BD1 /* BlurDownloadView */;
+			targetProxy = EC57CAE420205DA900540BD1 /* PBXContainerItemProxy */;
+		};
+		EC57CAF020205DA900540BD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC57CACE20205DA900540BD1 /* BlurDownloadView */;
+			targetProxy = EC57CAEF20205DA900540BD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC57CAD620205DA900540BD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC57CAD720205DA900540BD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC57CADB20205DA900540BD1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC57CADC20205DA900540BD1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC57CAF520205DA900540BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC57CAF620205DA900540BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC57CAF820205DA900540BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlurDownloadView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.BlurDownloadView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlurDownloadView/BlurDownloadView-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC57CAF920205DA900540BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlurDownloadView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.BlurDownloadView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BlurDownloadView/BlurDownloadView-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC57CAFB20205DA900540BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlurDownloadViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.BlurDownloadViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurDownloadView.app/BlurDownloadView";
+			};
+			name = Debug;
+		};
+		EC57CAFC20205DA900540BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlurDownloadViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.BlurDownloadViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlurDownloadView.app/BlurDownloadView";
+			};
+			name = Release;
+		};
+		EC57CAFE20205DA900540BD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlurDownloadViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.BlurDownloadViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlurDownloadView;
+			};
+			name = Debug;
+		};
+		EC57CAFF20205DA900540BD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BlurDownloadViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.blurs.BlurDownloadViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BlurDownloadView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC57CACA20205DA800540BD1 /* Build configuration list for PBXProject "BlurDownloadView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC57CAF520205DA900540BD1 /* Debug */,
+				EC57CAF620205DA900540BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC57CAF720205DA900540BD1 /* Build configuration list for PBXNativeTarget "BlurDownloadView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC57CAF820205DA900540BD1 /* Debug */,
+				EC57CAF920205DA900540BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC57CAFA20205DA900540BD1 /* Build configuration list for PBXNativeTarget "BlurDownloadViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC57CAFB20205DA900540BD1 /* Debug */,
+				EC57CAFC20205DA900540BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC57CAFD20205DA900540BD1 /* Build configuration list for PBXNativeTarget "BlurDownloadViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC57CAFE20205DA900540BD1 /* Debug */,
+				EC57CAFF20205DA900540BD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC57CAC720205DA800540BD1 /* Project object */;
+}
